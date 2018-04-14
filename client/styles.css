@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    background-color: lightblue;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin: auto;
+    padding: 20px;
+  }
+
+
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  li:nth-child(odd) {
+    background-color: rgba(255,255,255,0.2);
+  }
+
+  form {
+    background-color: lightgray;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  input#initials {
+    width: 40px;
+  }
+
+  input#message {
+    width: 300px;
+  }
+
+  button {
+    background-color: rgb(74, 173, 203);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    height: 40px;
+    border-radius: 10px;
+  }
